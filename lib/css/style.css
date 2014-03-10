@@ -1,0 +1,24 @@
+.info {
+	background: #cee6f2;
+	color: #058dc7;
+	border: 1px solid #058dc7;
+	border-radius: 6px;
+	padding: 8px;
+	margin: 8px 0;
+	display: inline-block;
+	font-size: 0.875em;
+}
+#notifications-toggle {
+	line-height: 21px;
+	vertical-align: top;
+	cursor: pointer
+}
+div.pagecontainer .accordion .pagetext {
+	cursor: pointer;
+	background: url(images/open.png) no-repeat left;
+	padding-left: 20px;
+	line-height: 20px
+}
+div.pagecontainer .accordion .pagetext.active {
+	background: url(images/close.png) no-repeat left
+}
